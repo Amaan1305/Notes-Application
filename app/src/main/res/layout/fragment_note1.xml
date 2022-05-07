@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LoginActivity.Note1Fragment"
+    android:background="@color/color_primary">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/notesManagingAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="180dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/managing_notes_animation" />
+
+    <TextView
+        android:id="@+id/managetxtNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="@string/managing_and_working"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/manage2txtNotes"
+        android:text="@string/with_notes"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:fontFamily="@font/quicksand_medium"
+        android:layout_below="@id/managetxtNotes"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/imgArrowLogin"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/manage2txtNotes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@mipmap/up_arrow" />
+
+</RelativeLayout>

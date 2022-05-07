@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/drawable/button_background.xml" value="0.206" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/drawable/button_forgot_background.xml" value="0.2055" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/drawable/edit_text_background.xml" value="0.206" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/drawable/edit_text_forgot_background.xml" value="0.2055" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/drawable/edit_title_notes_background.xml" value="0.2055" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/drawable/login_background.xml" value="0.206" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/layout-v23/activity_login_main.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_create_notes.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_edit_note.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_login_main.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_login_screen_animation.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_note_detail.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_notes_main.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_sign_up_main.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/layout/fragment_note1.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/layout/fragment_note2.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/layout/fragment_welcome.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/layout/notes_item.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Notes/app/src/main/res/menu/note_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

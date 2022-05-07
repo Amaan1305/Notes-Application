@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "587671501870",
+    "project_id": "notes-740a8",
+    "storage_bucket": "notes-740a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587671501870:android:d1cae6b9c440e0605b73bf",
+        "android_client_info": {
+          "package_name": "com.lizzy.notes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587671501870-sj4ij7n8oah2r2ij3oojvorhb32hv0dj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrsAKM5IOB-bz9Z-s-NPz_-1AT1zS19A0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587671501870-sj4ij7n8oah2r2ij3oojvorhb32hv0dj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

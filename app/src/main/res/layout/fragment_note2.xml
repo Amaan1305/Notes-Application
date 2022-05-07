@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LoginActivity.Note2Fragment"
+    android:background="#EC6923">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skip"
+        android:textSize="22sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="30dp"
+        android:id="@+id/logintxtSkip"
+        android:fontFamily="@font/quicksand_bold"
+        android:textColor="@color/black"
+        android:clickable="true"
+        android:enabled="true"
+        android:focusable="true"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/notesWorkAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="180dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/work_and_daily_notes"/>
+
+    <TextView
+        android:id="@+id/managetxtNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="610dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="@string/daily_work_and_schedule"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/manage2txtNotes"
+        android:text="@string/with_notes"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:fontFamily="@font/quicksand_medium"
+        android:layout_below="@id/managetxtNotes"
+        android:layout_marginTop="10dp"/>
+
+
+
+</RelativeLayout>

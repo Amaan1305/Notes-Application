@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="skip">Skip</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="managaing_and">Managaing and</string>
+    <string name="managing_and_working">Managing and Working</string>
+    <string name="with_notes">With Notes</string>
+    <string name="daily_work_and_schedule">Daily Work And Schedule</string>
+    <string name="notes">Notes</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="login_to_continue">Login to Continue</string>
+    <string name="login">LOGIN</string>
+    <string name="email_adress">Email Address</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_have_a_account">Don\'t Have a Account?</string>
+    <string name="register_here">Register Here</string>
+    <string name="join_notes">Join Notes</string>
+    <string name="register_to_continue">Register to Continue</string>
+    <string name="register">REGISTER</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="want_to_login">Want to Login?</string>
+    <string name="login_in">Login In</string>
+</resources>

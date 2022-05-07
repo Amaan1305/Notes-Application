@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LoginActivity.WelcomeFragment"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/loginTxtSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="30dp"
+        android:clickable="true"
+        android:enabled="true"
+        android:focusable="true"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/skip"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/welcomeLayout"
+       android:layout_centerHorizontal="true">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/welcome_to"
+           android:layout_centerHorizontal="true"
+           android:textSize="35sp"
+           android:fontFamily="@font/poppins_light"
+           android:layout_marginTop="100dp"
+           android:textColor="@color/black"
+           android:id="@+id/welcometxtlogin"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/notes"
+           android:layout_centerHorizontal="true"
+           android:textSize="35sp"
+           android:fontFamily="@font/poppins_light"
+           android:layout_marginTop="10dp"
+           android:textColor="@color/black"
+           android:layout_below="@id/welcometxtlogin"/>
+
+
+   </RelativeLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/notesManagingAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/notes_welcome" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_login"
+    app:startDestination="@id/note1Fragment">
+    <fragment
+        android:id="@+id/note1Fragment"
+        android:name="com.lizzy.notes.LoginActivity.Note1Fragment"
+        android:label="fragment_note1"
+        tools:layout="@layout/fragment_note1" >
+        <action
+            android:id="@+id/action_note1Fragment_to_loginMainActivity"
+            app:destination="@id/loginMainActivity"
+            app:enterAnim="@anim/to_down"
+            app:exitAnim="@anim/from_up" />
+    </fragment>
+    <activity
+        android:id="@+id/loginMainActivity"
+        android:name="com.lizzy.notes.LoginActivity.LoginMainActivity"
+        android:label="activity_login_main"
+        tools:layout="@layout/activity_login_main" />
+</navigation>
